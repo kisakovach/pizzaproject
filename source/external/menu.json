@@ -1,0 +1,18 @@
+[
+ {"title": "margaritta",
+  "type" : "pizza",
+  "cost":"50"    
+ },
+ {"title": "california",
+  "type" : "roll",
+  "cost":"35"   
+ },
+ {"title": "spring",
+  "type" : "spring_roll",
+  "cost":"95"   
+  },
+ {"title": "svinina",
+  "type" : "shash",
+  "cost":"60"   
+  }
+ ]

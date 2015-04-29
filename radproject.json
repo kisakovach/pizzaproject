@@ -1,0 +1,21 @@
+{
+    "name": "pizzaproject",
+    "application": null,
+    "libs": {},
+    "view": {
+        "start": "\\source\\views\\start"
+    },
+    "model": {
+        "type": "\\source\\models\\type",
+        "dish": "\\source\\models\\dish"
+    },
+    "service": {
+        "getmenu": "\\source\\service\\getmenu"
+    },
+    "screen": {},
+    "external": {},
+    "links": {},
+    "collection": {
+        "menu": "\\source\\models\\menu"
+    }
+}

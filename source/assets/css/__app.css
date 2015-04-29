@@ -1,0 +1,114 @@
+
+
+
+@import url("../../external/css/materialize.css");
+
+@font-face {
+ font-family:Lobster ;
+ src: local("Lobster"),url("fonts/lobster.ttf");
+}
+
+html {
+ 
+ font-family: Lobster;
+ font-weight: normal;
+
+}
+
+
+#screen {
+ 
+ font-family: Lobster;
+ font-weight: normal;
+ background-color:#eaedf1;
+
+}
+
+.test-font{
+
+ font-family: Lobster;
+ font-weight: normal;
+
+}
+
+
+/*---- up navs ----*/
+
+
+nav {
+ vertical-align: middle;
+ height: 88px;
+ line-height: 88px;
+ text-align: center;
+ font-family:Lobster;
+ font-size: 40px;
+ background-color: #323a45;
+}
+
+
+nav .brand-logo {
+ left:initial;
+
+}
+/*--- end ---*/
+
+/* main list page*/
+
+
+
+.collection .collection-item.avatar {
+
+	height: 117px;
+	cursor: pointer;
+	padding: 5px 20px;
+	vertical-align: middle;
+}
+
+
+.collection .collection-item.avatar p {
+
+	position: absolute;
+	left:150px;
+	height: 100%;
+	color:#323a45;
+	font-size: 40px;
+	font-family: Lobster;
+}
+
+.collection-item:hover {
+
+	cursor: pointer;
+	background-color: #9ea7b3;
+}
+
+.collection .collection-item.avatar .circle {
+	background-color: #fff; 
+	height:105px;
+	width: 105px;
+}
+
+span.badge {
+    
+    padding:2px;
+    width: 63px;
+    background-color: #9ea7b3;	
+    border-radius: 25px;
+    top:20px;
+    right: 53px;
+    height: 63px;
+    font-size: 40px;
+    padding-top:18px;
+    color: #fff; 
+}
+
+.collection-item:hover span.badge{
+	border-radius: 25px;
+	background-color: #f27935;		
+}
+
+#id_main{
+ font-family: Lobster;
+ font-weight: normal;
+ background-color:#eaedf1;
+ height:100%;
+}

@@ -1,0 +1,453 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"load",
+				"loadFromLocal"
+			],
+			[
+				"margin",
+				"margin-top"
+			],
+			[
+				"pa",
+				"padding"
+			],
+			[
+				"bo",
+				"border-radius"
+			],
+			[
+				"btn",
+				"btn-default"
+			],
+			[
+				"mar",
+				"margin"
+			],
+			[
+				"font",
+				"font-weight"
+			],
+			[
+				"ba",
+				"background"
+			],
+			[
+				"h",
+				"max-height"
+			],
+			[
+				"ma",
+				"margin"
+			],
+			[
+				"div",
+				"div-round"
+			],
+			[
+				"border",
+				"border-bottom"
+			],
+			[
+				"bor",
+				"border"
+			],
+			[
+				"margo",
+				"margin-top"
+			],
+			[
+				"FONT",
+				"font-size"
+			],
+			[
+				"fo",
+				"form	Tag"
+			],
+			[
+				"vi",
+				"vertical-align"
+			],
+			[
+				"na",
+				"navbar"
+			],
+			[
+				"border-radius",
+				"border-top-left-radius"
+			],
+			[
+				"text",
+				"text-align"
+			],
+			[
+				"inl",
+				"inline-block"
+			],
+			[
+				"mr",
+				"margin-left"
+			],
+			[
+				"li",
+				"li	Tag"
+			],
+			[
+				"tag",
+				"tag_id"
+			],
+			[
+				"add",
+				"addTaskForm"
+			],
+			[
+				"co",
+				"console"
+			],
+			[
+				"sho",
+				"showAddTask"
+			],
+			[
+				"fu",
+				"fun	Function"
+			],
+			[
+				"View",
+				"View"
+			],
+			[
+				"back",
+				"background"
+			],
+			[
+				"in",
+				"input	Tag"
+			],
+			[
+				"l",
+				"li	Tag"
+			],
+			[
+				"u",
+				"ul	Tag"
+			],
+			[
+				"d",
+				"display"
+			],
+			[
+				"A",
+				"AddContact"
+			],
+			[
+				"coo",
+				"collection"
+			],
+			[
+				"contact",
+				"contactView"
+			],
+			[
+				"pu",
+				"public"
+			],
+			[
+				"coll",
+				"Collection"
+			],
+			[
+				"fet",
+				"fetchModels"
+			],
+			[
+				"spe",
+				"SpecialTask"
+			],
+			[
+				"S",
+				"SpecialTasks"
+			],
+			[
+				"Sp",
+				"SpecialTask"
+			],
+			[
+				"show",
+				"showSpecialTask"
+			],
+			[
+				"Add",
+				"AddTask"
+			],
+			[
+				"Viw",
+				"View"
+			],
+			[
+				"tas",
+				"tasks"
+			],
+			[
+				"tasks",
+				"Tasks"
+			],
+			[
+				"ta",
+				"tasksView"
+			],
+			[
+				"dead",
+				"deadLine"
+			],
+			[
+				"list",
+				"list-style-type"
+			],
+			[
+				"task",
+				"taskView"
+			],
+			[
+				"T",
+				"TaskView"
+			],
+			[
+				"curr",
+				"currtask"
+			],
+			[
+				"Dead",
+				"getDeadLine"
+			],
+			[
+				"get",
+				"getHours"
+			],
+			[
+				"new",
+				"NewTask"
+			],
+			[
+				"s",
+				"script	Tag"
+			]
+		]
+	},
+	"buffers":
+	[
+	],
+	"build_system": "",
+	"command_palette":
+	{
+		"height": 292.0,
+		"selected_items":
+		[
+			[
+				"Snippet: ",
+				"Snippet: html-html5"
+			]
+		],
+		"width": 444.0
+	},
+	"console":
+	{
+		"height": 0.0
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"file_history":
+	[
+		"/D/project/html/todobootstrap/js/views/start.html",
+		"/D/project/html/todomaterialize/index.html",
+		"/D/project/html/todobootstrap/js/views/list.html",
+		"/D/project/html/todobootstrap/js/application.js",
+		"/D/project/html/todobootstrap/js/views/add.js",
+		"/D/project/html/todobootstrap/js/views/add.html",
+		"/D/project/html/todobootstrap/js/views/list.js",
+		"/D/project/html/todobootstrap/js/views/start.js",
+		"/D/project/html/todobootstrap/index.html",
+		"/D/project/html/todobootstrap/js/main.js",
+		"/D/project/html/todobootstrap/js/utils/utils.js",
+		"/D/project/html/todobootstrap/js/lib/momentwls.js",
+		"/D/project/html/todoboot/js/views/start.js",
+		"/D/project/html/todoboot/js/models/tasks.js",
+		"/D/project/html/todoboot/js/models/task.js",
+		"/D/project/html/todoboot/js/main.js",
+		"/D/project/html/todoboot/js/views/show.html",
+		"/D/project/html/todoboot/index.html",
+		"/D/project/html/todoboot/js/views/add.html",
+		"/D/project/html/todoboot/js/application.js",
+		"/D/project/html/todoboot/css/app.css",
+		"/D/project/html/todoboot/js/views/add.js",
+		"/D/project/html/todoboot/js/models/Collections.js",
+		"/D/project/html/todoboot/js/views/show.js",
+		"/D/project/html/todoboot/index.1.html",
+		"/D/project/html/todoboot/add.html",
+		"/D/project/html/todoboot/show.html",
+		"/D/project/html/todoboot/css/bootstrap.css",
+		"/D/project/html/todo/index.html",
+		"/D/project/html/todo/js/views.js",
+		"/D/project/html/todo/js/router.js",
+		"/D/project/html/todo/js/main.js",
+		"/D/project/html/todo/css/main.css",
+		"/D/project/backbone-tutorial/todo/index.html",
+		"/D/project/backbone-tutorial/todo/task.html",
+		"/D/project/backbone-tutorial/todo/js/main.js",
+		"/D/project/backbone-tutorial/todo/js/models.js",
+		"/D/project/backbone-tutorial/todo/js/collections.js",
+		"/D/project/backbone-tutorial/todo/js/views.js",
+		"/D/project/backbone-tutorial/todo/js/router.js",
+		"/D/project/backbone-tutorial/todo/css/main.css",
+		"/D/SERVER/html/laravel-test/app/views/home/index.blade.php",
+		"/D/SERVER/html/laravel-test/public/js/views.js",
+		"/D/SERVER/html/laravel-test/public/js/main.js",
+		"/D/SERVER/html/laravel-test/public/js/models.js",
+		"/D/SERVER/html/laravel-test/public/js/collections.js",
+		"/D/SERVER/html/laravel-test/public/js/router.js",
+		"/D/SERVER/html/laravel-test/public/css/main.css",
+		"/D/SERVER/html/laravel-test/app/controllers/TasksController.php",
+		"/D/SERVER/html/laravel-test/app/models/Tasks.php",
+		"/D/SERVER/html/laravel-test/app/routes.php",
+		"/D/SERVER/html/laravel-test/app/views/home/contacts.blade.php",
+		"/D/SERVER/html/laravel-test/public/js/routes.js",
+		"/D/SERVER/html/laravel-test/public/js/underscore.js",
+		"/D/SERVER/html/laravel-test/public/index.php",
+		"/D/SERVER/html/backbone/index.html",
+		"/D/SERVER/html/laravel-test/app/controllers/ContactsController.php",
+		"/D/SERVER/html/laravel-test/app/database/seeds/DatabaseSeeder.php",
+		"/D/SERVER/html/laravel-test/app/models/Contacts.php",
+		"/D/SERVER/html/backbone/js/main.js",
+		"/D/SERVER/html/laravel-test/app/controllers/HomeController.php",
+		"/D/SERVER/html/laravel-test/app/database/seeds/ContactsTableSeeder.php",
+		"/D/SERVER/html/laravel-test/app/database/seeds/Contacts.php",
+		"/D/SERVER/html/laravel-test/app/database/migrations/2015_02_16_112648_create_contacts_table.php",
+		"/D/SERVER/html/laravel-test/app/database/migrations/2015_02_12_210152_create_task_table.php",
+		"/D/SERVER/html/laravel-test/app/models/Mission.php",
+		"/D/SERVER/html/laravel-test/app/Model/Mission.php",
+		"/D/SERVER/html/laravel-test/app/User.php",
+		"/D/SERVER/html/laravel-test/app/Http/routes.php",
+		"/D/SERVER/html/laravel-test/database/migrations/2015_02_12_080142_create_task_table.php",
+		"/D/SERVER/html/laravel-test/app/Mission.php",
+		"/D/SERVER/html/laravel-test/public/1.php",
+		"/D/SERVER/html/laravel-test/database/migrations/2015_02_12_074833_create_task_table.php",
+		"/D/SERVER/html/laravel-test/database/migrations/2015_02_11_222019_create_task_table.php",
+		"/D/project/backbone-tutorial/index.html",
+		"/D/project/backbone-tutorial/css/style.css",
+		"/D/project/backbone-tutorial/js/main.js",
+		"/D/install/programming/sublimetext/Data/Packages/User/html-html5.sublime-snippet",
+		"/D/install/programming/sublimetext/Data/Packages/User/Preferences.sublime-settings",
+		"/D/project/backbone-tutorial/backbone_tutorial.sublime-project"
+	],
+	"find":
+	{
+		"height": 34.0
+	},
+	"find_in_files":
+	{
+		"height": 0.0,
+		"where_history":
+		[
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+			"\">\n",
+			"btn",
+			"<label>Имя:</label><input type = \"text\" id = \"first_name\">",
+			"\"></",
+			"\n});"
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"sheets":
+			[
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 0.0
+	},
+	"input":
+	{
+		"height": 32.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"replace":
+	{
+		"height": 0.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 0.0,
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"show_minimap": true,
+	"show_open_files": false,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 238.0,
+	"status_bar_visible": true
+}
