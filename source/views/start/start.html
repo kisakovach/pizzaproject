@@ -1,27 +1,20 @@
 <nav>
   Bella Pronta
-  <a href="#" class="brand-logo right">Logo</a>
+  <a href="#" class="brand-logo right"></a>
 </nav>
 <div id="main">
   <ul class="collection">
-   <li class = "collection-item avatar">
-    <img src="source/assets/img/pizza.jpg" class="circle">
-    <p class="valign-wrapper">Пицца </p><span class ="badge">12</span>
+   
+    {{# var group = _.groupBy(this.model.toJSON(),function(dish){
+            return dish.type;
+          });
+         for(var cat in group){
+    
+     }}
+   <li class = "collection-item avatar" data={{ group[cat][0].id_type  }}>
+    <img src="source/assets/img/{{ group[cat][0].id_type  }}.png" class="circle">
+    <p class="valign-wrapper">{{ cat }}</p><span class ="badge">{{ group[cat].length }}</span>
    </li>
-  <li class = "collection-item avatar">
-    <img src="source/assets/img/pizza.jpg" class="circle">
-    <p class="valign-wrapper">Роллы</p>
-    <span class ="badge">12</span>
-   </li>
-  <li class = "collection-item avatar">
-    <img src="source/assets/img/pizza.jpg" class="circle">
-    <p class="valign-wrapper">Спринг Роллс</p>
-    <span class ="badge">12</span>
-   </li>
-   <li class = "collection-item avatar">
-    <img src="source/assets/img/pizza.jpg" class="circle">
-    <p class="valign-wrapper">Солаты</p>
-    <span class ="badge">12</span>
-   </li>   	 
+  {{# }; }}
   </ul>
 </div>

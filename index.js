@@ -12,6 +12,8 @@
         
         "source/service/getmenu/getmenu.js",
         
+        "source/views/category/category.js",
+        
         "source/views/start/start.js",
         
         "source/application/application.js"

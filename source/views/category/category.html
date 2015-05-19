@@ -1,0 +1,16 @@
+<nav>
+  Bella Pronta
+  <a href="#" class="brand-logo right"></a>
+</nav>
+<div class ="dish_main">
+ <div class="about">{{ model.about }}</div>
+ <div class="back_img">
+   <img src="source/assets/img/img_2495.jpg">
+ </div>
+</div>
+{{# if(this.cur_page < this.max_page){  }}
+   <div class="right_arrow"></div>
+{{# } }}
+{{# if(this.cur_page > 0){  }}
+   <div class="left_arrow"></div>
+{{# } }}

@@ -3,7 +3,8 @@
     "application": null,
     "libs": {},
     "view": {
-        "start": "\\source\\views\\start"
+        "start": "\\source\\views\\start",
+        "category": "\\source\\views\\category"
     },
     "model": {
         "type": "\\source\\models\\type",
