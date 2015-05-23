@@ -14,6 +14,10 @@
         
         "source/views/category/category.js",
         
+        "source/views/header/header.js",
+        
+        "source/views/main/main.js",
+        
         "source/views/start/start.js",
         
         "source/application/application.js"

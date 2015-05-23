@@ -1,18 +1,6 @@
-RAD.view("start", RAD.Blanks.View.extend({
+RAD.view("header", RAD.Blanks.View.extend({
 
-
-    url: 'source/views/start/start.html',
-    children:[{
-        content:"header",
-        container_id:"#header"
-    },{
-        content:"main",
-        container_id:"#main" 
-
-    }],
-    
-    	
-
+    url: 'source/views/header/header.html',
 /*
     onInitialize: function () {
         

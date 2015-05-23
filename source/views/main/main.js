@@ -1,18 +1,25 @@
-RAD.view("start", RAD.Blanks.View.extend({
+RAD.view("main", RAD.Blanks.View.extend({
 
+    url: 'source/views/main/main.html',
 
-    url: 'source/views/start/start.html',
-    children:[{
-        content:"header",
-        container_id:"#header"
-    },{
-        content:"main",
-        container_id:"#main" 
+    model:RAD.model("menu"),
 
-    }],
+    events:{
+     "click li":"goDish"
+
+    },  
     
-    	
+    goDish: function(e){
 
+     var id = $(e.currentTarget).attr("data");
+     var group = RAD.model("menu").where(id);
+
+     this.application.next({id:id, id_model:group[0],cur_page:0});
+
+     //console.log(id);
+    
+
+    }
 /*
     onInitialize: function () {
         

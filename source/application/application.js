@@ -19,20 +19,43 @@ RAD.application(function (core) {
 
     };
 
-    app.dish = function(catobj){
+    app.category = function(obj){
+      
+      var options = {
 
-    var options= {
-
-	container_id:'#screen',
-	content:'category',
-	animation: 'slide',
-	extras: catobj 		
-
+	     container_id:'#main',
+	     content:'category',
+	     animation: 'slide',
+	     extras: obj 		
+      };
+      core.publish('navigation.show',options);
     };
 
+    app.next = function(obj){
+       
+      if(!(core.getView('item'+obj.id_next)==='object')){ 
+        RAD.view('item'+obj.id_next,RAD.views.Category);
+       };
+        var options = {
+         container_id:'#main',
+         content:'item'+obj.id_next,
+         animation: 'slide',
+         extras: obj     
+       };
 
-    core.publish('navigation.show',options)
-    }	
+      core.publish("navigation.show",options);
+    };
+
+    app.prev = function (obj) {
+      var options = {
+         container_id:'#main',
+         content:'item'+obj.id_next,
+         animation: 'slide-out',
+         extras: obj     
+       };
+
+      core.publish("navigation.show",options);
+    }
 	
     return app;
 }, true);

@@ -4,7 +4,9 @@
     "libs": {},
     "view": {
         "start": "\\source\\views\\start",
-        "category": "\\source\\views\\category"
+        "category": "\\source\\views\\category",
+        "header": "\\source\\views\\header",
+        "main": "\\source\\views\\main"
     },
     "model": {
         "type": "\\source\\models\\type",
