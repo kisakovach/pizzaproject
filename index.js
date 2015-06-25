@@ -18,6 +18,8 @@
         
         "source/views/main/main.js",
         
+        "source/views/num/num.js",
+        
         "source/views/start/start.js",
         
         "source/application/application.js"

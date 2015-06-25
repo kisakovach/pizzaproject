@@ -11,14 +11,11 @@ RAD.view("main", RAD.Blanks.View.extend({
     
     goDish: function(e){
 
-     var id = $(e.currentTarget).attr("data");
-     var group = RAD.model("menu").where(id);
-
-     this.application.next({id:id, id_model:group[0],cur_page:0});
-
-     //console.log(id);
+     var cur_type = $(e.currentTarget).attr("data");
+     this.application.group = RAD.model("menu").where({type:cur_type});
+     this.application.next({id_group:0,
+			     animation:"slide-in"});
     
-
     }
 /*
     onInitialize: function () {

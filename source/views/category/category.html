@@ -1,13 +1,16 @@
-
-<div >
- <div class="about">{{ model.about }}</div>
- <div class="back_img">
-   <img src="source/assets/img/img_2495.jpg">
- </div>
-</div>
-{{# if(this.cur_page < this.max_page){  }}
+<div class ="dish"> 
+{{# if(this.model.get('next')){  }}
    <div class="right_arrow"></div>
 {{# } }}
-{{# if(this.cur_page > 0){  }}
+{{# if(this.model.get('prev')){  }}
    <div class="left_arrow"></div>
 {{# } }}
+<img src="source/assets/img/IMG_2495.jpg" class="img-dish">
+ <div class="about">{{ model.about }}</div>
+ <ul class="num-item-list">
+  <li class="plus-item"></li>
+  <li class="num-item circle">{{ model.num }}</li>
+  <li class="minus-item"></li>
+</ul> 
+<a href="#" class="btn-post">Заказать</a>
+</div>

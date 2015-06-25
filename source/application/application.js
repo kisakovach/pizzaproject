@@ -13,14 +13,18 @@ RAD.application(function (core) {
        
        core.startService("getmenu");
        core.publish("getmenu.load",{
-        file:"http://localhost/1.php"
+        file:"http://10.8.71.251/kisel/1.php"
        });
        core.publish('navigation.show', options);
 
     };
 
+/*
     app.category = function(obj){
       
+
+
+      RAD.view('category')
       var options = {
 
 	     container_id:'#main',
@@ -30,17 +34,44 @@ RAD.application(function (core) {
       };
       core.publish('navigation.show',options);
     };
+*/
+    app.group=[];
 
     app.next = function(obj){
-       
-      if(!(core.getView('item'+obj.id_next)==='object')){ 
-        RAD.view('item'+obj.id_next,RAD.views.Category);
+   
+      var cur_dish = this.group[obj.id_group]
+      var id = cur_dish.get("id");
+      var next = false;
+      var prev = false;
+
+      if(core.getView("item"+id)!=="object"){
+       RAD.view("item"+id, RAD.views.Category);
+      };
+
+      if(obj.id_group<this.group.length-1){
+       next = true;
+      };
+
+      if(obj.id_group>0){
+       prev = true;
+      };
+
+
+      var extras = {
+         id_group:obj.id_group,
+         about:cur_dish.get("about"),
+         cost:cur_dish.get("cost"),
+         dish:cur_dish.get("dish"),
+         num:1,
+         next:next,
+         prev:prev
        };
-        var options = {
+
+      var options = {
          container_id:'#main',
-         content:'item'+obj.id_next,
-         animation: 'slide',
-         extras: obj     
+         content:'item'+id,
+         animation: obj.animation,
+         extras: extras     
        };
 
       core.publish("navigation.show",options);
@@ -49,7 +80,7 @@ RAD.application(function (core) {
     app.prev = function (obj) {
       var options = {
          container_id:'#main',
-         content:'item'+obj.id_next,
+         content:'item'+obj.cur_page,
          animation: 'slide-out',
          extras: obj     
        };

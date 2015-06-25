@@ -1,14 +1,16 @@
 <ul class="collection">
-   
-    {{# var group = _.groupBy(this.model.toJSON(),function(dish){
-            return dish.type;
-          });
-         for(var cat in group){
+{{# 
+
+var p = _.groupBy(this.model.models, function(line_group){
+                                                 return line_group.get('type');   
     
-     }}
-   <li class = "collection-item avatar" data={{ group[cat][0].id_type  }}>
-    <img src="source/assets/img/{{ group[cat][0].id_type  }}.png" class="circle">
-    <p class="valign-wrapper">{{ cat }}</p><span class ="badge">{{ group[cat].length }}</span>
-   </li>
-  {{# }; }}
- </ul>
+					       });
+ for( var g in p ){
+	
+ }}
+   <li class = "collection-item avatar" data ="{{ p[g][0].get('type') }}" >
+    <img src="source/assets/img/{{ p[g][0].get("img")  }}" class="circle">
+    <p class="valign-wrapper">{{ g }}</p><span class ="badge">{{ p[g].length }}</span>
+   </li> 
+{{# }; }}     	 
+</ul>

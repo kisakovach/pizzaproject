@@ -1,12 +1,13 @@
 RAD.model('dish', Backbone.Model.extend({
 
 defaults: {
- 
- dish:"new dish",
- type:"new type",
- about:" new about",
- cost: 50
-
+ id_group:"",
+ dish:"titile",
+ about:"about ",
+ cost:50,
+ num:1, 
+ next:false,
+ prev:false
 }
 
 }), false);

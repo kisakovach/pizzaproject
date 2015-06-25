@@ -4,7 +4,7 @@ RAD.view("start", RAD.Blanks.View.extend({
     url: 'source/views/start/start.html',
     children:[{
         content:"header",
-        container_id:"#header"
+        container_id:"#top"
     },{
         content:"main",
         container_id:"#main" 

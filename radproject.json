@@ -6,7 +6,8 @@
         "start": "\\source\\views\\start",
         "category": "\\source\\views\\category",
         "header": "\\source\\views\\header",
-        "main": "\\source\\views\\main"
+        "main": "\\source\\views\\main",
+        "num": "\\source\\views\\num"
     },
     "model": {
         "type": "\\source\\models\\type",
