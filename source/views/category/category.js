@@ -6,7 +6,7 @@ RAD.views.Category = RAD.Blanks.View.extend({
 
      "click .right_arrow":"onNext",
      "click .left_arrow" :"onPerv",
-     "click .about" : "onNext",
+     "click .btn-post" : "onPost",
      "click .plus-item" : "onPlus",
      "click .minus-item" : "onMinus"
     },  
@@ -19,7 +19,7 @@ RAD.views.Category = RAD.Blanks.View.extend({
 
     onNewExtras: function (extras) {
      var md = RAD.model("dish");
-     var model =new md(extras)
+     var model = new md(extras)
      this.changeModel(model); 
     },
 
@@ -45,11 +45,25 @@ RAD.views.Category = RAD.Blanks.View.extend({
     },
 
     onPlus: function(e){
-     num = this.model.get("num");
+     var num = this.model.get("num");
      num++;
      this.model.set({num:num});
-    }
+    },
 
+    onPost:function(e) {
+      var num = this.model.get("num");
+      var id = this.application.group[this.model.get("id_group")].get("id");
+      var cost = this.application.group[this.model.get("id_group")].get("cost");
+      var dish = this.application.group[this.model.get("id_group")].get("dish");
+      var type = this.application.group[this.model.get("id_group")].get("type");
+     
+      RAD.model('cart').add({id:id,num:num,dish:dish,type:type,cost:cost});
+      var cart=0;
+      RAD.model('cart').each(function(item){
+        cart+=item.get("num");
+      })
+      RAD.model('header').set("cart",cart);
+    }
 
 
 /*

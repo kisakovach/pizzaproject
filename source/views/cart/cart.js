@@ -1,31 +1,23 @@
-RAD.view("header", RAD.Blanks.View.extend({
+RAD.view("cart", RAD.Blanks.View.extend({
 
-    url: 'source/views/header/header.html',
-    model:RAD.model("header"),
+    url: 'source/views/cart/cart.html',
+
+    model:RAD.model("cart"),
     events:{
-    "click .back":"goBack",
-    "click .cart":"goCart"
+     "click .delete":"onDelete"
     },
 
-    goBack: function(e){
-
-     this.application.toMain();
+    onInitialize: function () {
     
     },
 
-
-    goCart: function(e){
-
-     this.application.toCart();
-    
+    onDelete: function(e){
+     this.model.remove($(e.target).attr("data"));
+     RAD.model('header').set("cart",this.model.length);
+     
     }
 
 /*
-    onInitialize: function () {
-        
-    },
-
-
     onNewExtras: function (extras) {
         
     },

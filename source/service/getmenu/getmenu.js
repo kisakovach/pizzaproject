@@ -13,12 +13,16 @@ RAD.service("getmenu", RAD.Blanks.Service.extend({
         	$.getJSON(data.file, function(data){
                 console.log(data);
             }).done(function(data){
+                 RAD.model("menu").set(data);
                     
-                    RAD.model("menu").set(data);
-                    
-
                 });
-    }},
+        };
+        if(channel == "getmenu.getCart"){
+           RAD.model("cart").set(data.cart);
+        }
+
+
+    },
 
     setMenu: function(menu_list){
 

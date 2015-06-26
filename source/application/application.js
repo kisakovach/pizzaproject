@@ -1,6 +1,34 @@
 RAD.application(function (core) {
     var app = this;
 
+
+    app.toMain = function (){
+    
+        RAD.model("header").set("back",false);
+        var options = {
+            container_id: '#main',
+            content: "main",
+            animation: 'slide-out'
+        };
+
+        core.publish('navigation.show', options);
+    }
+
+    app.toCart = function (){
+        RAD.model("header").set("caption","Корзина");
+        RAD.model("header").set("back",true);
+        var options = {
+            container_id: '#main',
+            content: "cart",
+            animation: 'fade'
+        };
+
+        core.publish('navigation.show', options);
+    }
+
+
+
+
     app.start = function () {
         
 // to add your first view - run "rad add view view.main" from the root of this project
@@ -44,6 +72,8 @@ RAD.application(function (core) {
       var next = false;
       var prev = false;
 
+      RAD.model("header").set("back",true);
+      RAD.model("header").set("caption",cur_dish.get('type'));
       if(core.getView("item"+id)!=="object"){
        RAD.view("item"+id, RAD.views.Category);
       };

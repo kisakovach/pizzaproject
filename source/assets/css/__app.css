@@ -139,7 +139,7 @@ border:1px solid #f27935;
  border-radius:25px;
  padding:3% 7%;
  color:#fffefe;                                         
- font:19px normal helvecia;
+ font:19px normal Helvetica;
  background-color:#f27935;
  margin-right:10px;
  line-height:95px;
@@ -400,13 +400,19 @@ border:1px solid #f27935;
 
 /*---Cart order---*/
 
+#cart {
+ position:relative;
+}
+
+
 .cancel {
  background-color:#9ea7b3;
 }
 
 .btn-post.order {
-  bottom:28px;
-  left:17%;
+  position:relative;
+  top:28px;
+  margin-left:28%;
 }
 
 .order-form {

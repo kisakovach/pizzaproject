@@ -1,0 +1,18 @@
+<div id="cart">
+<ul class="collection">
+
+{{#
+
+ var summ = 0;
+ this.model.each(function( item ){ }}
+   <li class = "cart-item"  >
+    <p>{{ item.get("dish") }}</p><span class="price">{{ item.get("cost") }} грн</span><span class ="badge">{{ item.get("num") }}</span>
+    <img class="delete" data ="{{ item.get('id') }}" src="source/assets/img/3scr_delete@2x.png">
+   </li>
+{{# summ+=item.get("num")*item.get("cost")  }); }}
+   <li class = "cart-item summ" data ="" >
+     <p>Всего: <span>{{ summ }}</span> грн</p>
+   </li> 	 
+  </ul>
+<a href="#" class="btn-post order">Оформить</a>
+</div>

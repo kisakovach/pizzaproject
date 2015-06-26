@@ -7,11 +7,13 @@
         "category": "\\source\\views\\category",
         "header": "\\source\\views\\header",
         "main": "\\source\\views\\main",
-        "num": "\\source\\views\\num"
+        "num": "\\source\\views\\num",
+        "cart": "\\source\\views\\cart"
     },
     "model": {
         "type": "\\source\\models\\type",
-        "dish": "\\source\\models\\dish"
+        "dish": "\\source\\models\\dish",
+        "header": "\\source\\models\\header"
     },
     "service": {
         "getmenu": "\\source\\service\\getmenu"
@@ -20,6 +22,7 @@
     "external": {},
     "links": {},
     "collection": {
-        "menu": "\\source\\models\\menu"
+        "menu": "\\source\\models\\menu",
+        "cart": "\\source\\models\\cart"
     }
 }

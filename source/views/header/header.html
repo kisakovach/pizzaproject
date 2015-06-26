@@ -1,2 +1,2 @@
-  <span>Bella Pronta</span>
-  <div class="cart"><span class='badge'>10</span></div>
+{{# if(this.model.get("back")){ }} <a href="#" class="back"></a>{{# } }}<span>{{ model.caption  }}</span>
+  <div class="cart"><span class='badge'>{{ model.cart }}</span></div>

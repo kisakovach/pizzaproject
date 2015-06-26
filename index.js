@@ -4,13 +4,19 @@
     
     var scripts = [
         
+        "source/models/cart/cart.js",
+        
         "source/models/dish/dish.js",
+        
+        "source/models/header/header.js",
         
         "source/models/menu/menu.js",
         
         "source/models/type/type.js",
         
         "source/service/getmenu/getmenu.js",
+        
+        "source/views/cart/cart.js",
         
         "source/views/category/category.js",
         
@@ -41,7 +47,6 @@
 
         //start
         application.start();
-
     }
 
     window.RAD.scriptLoader.loadScripts(scripts, onEndLoad);
